@@ -11,9 +11,6 @@ using System.Threading.Tasks;
 
 namespace AZ204.MessageEventDemo
 {
-    /// <summary>
-    /// Có vẻ không phù hợp cho message lớn - API không support gởi payload dạng object :D
-    /// </summary>
     public static class EventHub
     {
         public static Task Run(ICollection<Invoice> invoices)
